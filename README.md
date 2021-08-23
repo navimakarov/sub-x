@@ -37,10 +37,8 @@ HTML/CSS/JavaScript, Node.js, Python
  </table>
  
  ## Product Preview
-<img src="Screenshots/Game.png"/>
-<img src="Screenshots/Choose Player.png"/>
-<img src="Screenshots/Attack.png"/>
-<img src="Screenshots/Multiplayer.png"/>
-<img src="Screenshots/Settings.png"/>
+<img src="images/Landing.jpg"/>
+<img src="images/Options.jpg"/>
+<img src="images/Demo.jpg"/>
 
 
