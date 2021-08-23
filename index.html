@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162141359-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162141359-1');
+        </script>
+        <title>subX</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> 
+        <meta name="description" content="Learn foreign languages having fun and watching YouTube videos. Learn English, Germany and other 40+ languages for free. Have fun and develop language skills.">
+        <meta name="og:title" property="og:title" content="Learn foreign languages having fun and watching YouTube videos. Learn English, Germany and other 40+ languages for free. Have fun and develop language skills.">
+        <meta name="robots" content="index, folow">
+        <meta name="author" content="Ivan Makarov, Danil Andreev">
+        <meta name="keywords" content="language learning, learn English, subtitles, learn languages, learn language for free, langauge software, free language software, learn foreign language, learning languages with videos, learn languages online, learn languages fast, learn language app, learn language ted talk, learn language by watching tv">
+        <link rel="icon" href="images/icon.png" type="image/png">
+        <link rel="stylesheet" type = "text/css" href="styles/main.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+        <script src="scripts/main.js"></script>
+    </head>
+    <body>
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
+        <img id="logo" src="images/logo.png" alt="Learn 40+ foreign watching YouTube videos and having fun for free.">
+        <div id="search">
+        <input type="text" id="input_field" size="20" placeholder="YouTube link" onkeypress="return enter_pressed(event)" onclick="hideLogo()"></br>
+        <button class="watch" id="watch_btn" onclick="validVideoId()">Watch</button>
+        <div id="notes">
+        <p id="invalid_link">Error: Invalid link</p>
+        <p id="sample" onclick="addSampleVideoLink()">Sample Video</p>
+        </div>
+    </body>
+</html>

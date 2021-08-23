@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162141359-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162141359-1');
+        </script>
+        <title>Enjoy the video</title>
+        <link rel="icon" href="images/icon.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles/videoPlayer.css" />
+        <script src="scripts/handleSubtitles.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <meta name="description" content="Learn foreign languages having fun and watching YouTube videos. Learn English, Germany and other 40+ languages for free. Have fun and develop language skills.">
+        <meta name="og:title" property="og:title" content="Learn foreign languages having fun and watching YouTube videos. Learn English, Germany and other 40+ languages for free. Have fun and develop language skills.">
+        <meta name="robots" content="index, folow">
+        <meta name="author" content="Ivan Makarov, Danil Andreev">
+    </head>
+    <body>
+        <section id="watch"></section>
+        <script src="scripts/PlayerAPI.js"></script>
+        <div id="preloader">
+            <div id="loader"></div>
+          </div>
+        <script src="scripts/video_player.js"></script>
+        <div id="social_media">
+            <h2 class="join_text">Join us on social media!</h2>
+            <div id = "icons">
+                <a href="https://www.facebook.com/SUBX-Group-109080684075103" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/subX_org" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/subx_group/" class="fa fa-instagram"></a>
+            </div>
+            <h2 class="join_text">Support the project</h2>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_donations" />
+                <input type="hidden" name="business" value="makarov18042003@gmail.com" />
+                <input type="hidden" name="item_name" value="Help us to build a better website" />
+                <input type="hidden" name="currency_code" value="USD" />
+                <input type="image" src="images/paypal.png" class="paypal_button" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162141359-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162141359-1');
+        </script>
+        <title>Select options</title>
+        <link rel="icon" href="images/icon.png" type="image/png">
+        <link rel="stylesheet" type = "text/css" href="styles/lang_choose.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <meta charset="utf-8"/>
+        <meta id="viewport" name="viewport" content ="width=device-width" />
+        <meta name="description" content="Learn foreign languages having fun and watching YouTube videos. Learn English, Germany and other 40+ languages for free. Have fun and develop language skills.">
+        <meta name="og:title" property="og:title" content="Learn foreign languages having fun and watching YouTube videos. Learn English, Germany and other 40+ languages for free. Have fun and develop language skills.">
+        <meta name="robots" content="index, folow">
+        <meta name="author" content="Ivan Makarov, Danil Andreev">
+    </head>
+    <body>
+        <img id="logo" src="images/logo.png" alt="Learn 40+ foreign watching YouTube videos and having fun for free.">
+        <div id="boxes">
+        <div class="select_native">
+            <select name="slct_native" id="slct_native">
+              <option selected disabled>Native language</option>
+              <option>Afrikaans</option>
+              <option>Albanian</option>
+              <option>Arabic</option>
+              <option>Chinese</option>
+              <option>Croatian</option>
+              <option>Czech</option>
+              <option>Danish</option>
+              <option>Dutch</option>
+              <option>English</option>
+              <option>Estonian</option>
+              <option>Finnish</option>
+              <option>French</option>
+              <option>Georgian</option>
+              <option>German</option>
+              <option>Greek</option>
+              <option>Hebrew</option>
+              <option>Hindi</option>
+              <option>Hungarian</option>
+              <option>Irish</option>
+              <option>Italian</option>
+              <option>Japanese</option>
+              <option>Kannada</option>
+              <option>Korean</option>
+              <option>Latin</option>
+              <option>Latvian</option>
+              <option>Lithuanian</option>
+              <option>Macedonian</option>
+              <option>Mongolian</option>
+              <option>Norwegian</option>
+              <option>Persian</option>
+              <option>Polish</option>
+              <option>Portuguese</option>
+              <option>Romanian</option>
+              <option>Russian</option>
+              <option>Serbian</option>
+              <option>Slovak</option>
+              <option>Slovenian</option>
+              <option>Spanish</option>
+              <option>Swedish</option>
+              <option>Turkish</option>
+              <option>Ukrainian</option>
+              <option>Vietnamese</option>
+            </select>
+        </div>
+        <div class="select_foreign">
+            <select name="slct_foreign" id="slct_foreign">
+                <option selected disabled>Video language</option>
+            </select>
+        </div>
+        <div class="start_playing">
+            <button onclick="open_player()" class="play">Play</button>
+        </div>
+      </div>
+    <script src="scripts/lang_choose.js"></script>
+    </body>
+    </html>
